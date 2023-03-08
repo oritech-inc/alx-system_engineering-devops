@@ -1,2 +1,2 @@
 #!/bin/bash
-/tmp/iamafile: ASCII text
+file /tmp/iamafile
