@@ -1,0 +1,3 @@
+#!/bin/bash
+ls -ap1 --group-directories-first | LC_ALL=C sort -df | sed -e 's/[^\/]*$/&\//' | tr '\n' ',' ; echo
+
